@@ -1,4 +1,4 @@
-let num1 = 27;
+let num1 = 40;
 let num2 = 300; 
 let num3 = 400;
 
@@ -13,18 +13,20 @@ if (num1 > num2) {
 
 // odd or even
 
-// if (num1 % 2 ) {
+if (num1 % 2 ) {
     
-//     console.log('odd');  
-// } else {
+    console.log('odd');  
+} else {
    
-//     console.log('even');
-// }
+    console.log('even');
+}
+
+// positive or not positive
 
 // let amount = 6;
-// if (amount < 0) {
+// if (amount < 1) {
 //     console.log("Please enter a positive number");
-// } else if (amount =! 0){
+// } else if (amount != 1){
 //     console.log('Please enter a number');
 // } else {
 //     console.log(amount);
@@ -71,11 +73,11 @@ while (n < 20) {
 
 
 
-let startRange = (5,8);
-let endRange = (6,18);
-let output = '';
-for (let i = 0; i < startRange+endRange; i++) {
-    i = output;
-    console.log(output);
+// let startRange = (5,8);
+// let endRange = (6,18);
+// let output = '';
+// for (let i = 0; i < startRange+endRange; i++) {
+//     output = i;
+//     console.log(output);
     
-}
+// }
